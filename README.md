@@ -82,8 +82,8 @@ derived from OrmLiteMapping and will instantiate them. Therefore, all mapping ar
 
 __Other mapping functions:__
 
-```OrmLiteMapping.Ignore()``` - Ignores the given property and column
-```OrmLiteMapping.AutoIncrement()```- Maps a property to a column and marks it as auto increment
+*```OrmLiteMapping.Ignore()``` - Ignores the given property and column  
+*```OrmLiteMapping.AutoIncrement()```- Maps a property to a column and marks it as auto increment
 
 3. Register OrmLiteMappingFeature plugin on your ServiceStack AppConfigurator:
 
