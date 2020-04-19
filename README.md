@@ -64,7 +64,7 @@ public class ExampleModel
 ```csharp
 public class ExampleModelMapping : OrmLiteMapping<ExampleModel>
 {
-    public SuccessfulCandidateMapping()
+    public ExampleModelMapping()
     {
         MapToSchema("dbo");
         MapToTable("example_model");
